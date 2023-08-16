@@ -82,7 +82,7 @@ exclude = "django_project/manage.py, django_project/*/scripts"
 max-line-length = "120"
 
 [tool.pylint.MASTER]
-ignore-paths = ["django_project/manage.py", "django_project/tests", "django_project/storemgr/migrations", "django_project/*/scripts", "django_project/*/local_test"]
+ignore-paths = ["django_project/manage.py", "django_project/tests", "django_project/store/migrations", "django_project/*/scripts", "django_project/*/local_test"]
 exit-zero = true
 
 [tool.pylint.'MESSAGES CONTROL']
